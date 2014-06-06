@@ -1,4 +1,4 @@
-#pragma once
+Ôªø#pragma once
 
 #include <iostream>
 #include "Node.h"
@@ -17,7 +17,7 @@ public:
 
 class Worker : public WorkerBase
 {
-    virtual void default_exec(NodeBase* n) { /*±‚∫ª¿˚¿∏∑Œ «“¿œ*/ cout << "default" << endl; }
+    virtual void default_exec(NodeBase* n) { /* Í∏∞Î≥∏Ï†ÅÏúºÎ°ú Ìï†Ïùº */ cout << "default" << endl; }
 
-    virtual void exec_b(NodeB* n) { /* NodeB¿œ ∞ÊøÏ specialize*/  cout << "NodeB exec" << endl; }
+    virtual void exec_b(NodeB* n) { /* NodeBÏùº Í≤ΩÏö∞ specialization */  cout << "NodeB exec" << endl; }
 };
